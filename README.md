@@ -4,11 +4,16 @@
      - WIndows
 ## Requisitos
 ### 1 - Ambiente virtual
+Windows via powershell:
 ```bash
-    python -m venv venv
-    venv/Scripts/activate.ps1
+    python -m venv .venv
+    .venv/Scripts/activate.ps1
 ```
-- Obs: activate.ps1 para o terminal powershell. Em outros terminais pode funcionar utilizando o activate.bat
+Outros sistemas:
+```bash
+    python -m venv .venv
+    source .venv/bin/activate
+```
 
 ### 2 - Instalação de dependências
 ```bash

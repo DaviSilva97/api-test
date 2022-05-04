@@ -2,3 +2,5 @@
 _pycache_
 .pytest_cache
 api-env
+__pycache__
+.venv

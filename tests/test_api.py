@@ -1,8 +1,5 @@
-import requests
-import pytest
-
-base_url  = 'http://127.0.0.1:5000/'
+from main import server
 
 def test_api_integration():
-    req = requests.get(base_url)
+    req = server.test_client().get('/')
     assert req.status_code == 200

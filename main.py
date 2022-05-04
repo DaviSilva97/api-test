@@ -14,5 +14,5 @@ def get_vendas():
     result = {'total_vendas': total_vendas}
     return jsonify(result)
 
-
-server.run()
+if __name__ == "__main__":
+    server.run()

@@ -3,21 +3,18 @@
 - Ambiente utilizado:
      - WIndows
 ## Requisitos
+
+- Poetry (Link)[https://python-poetry.org/docs/#installation]
+Recomendado não instalar via pip
+
 ### 1 - Ambiente virtual
-Windows via powershell:
 ```bash
-    python -m venv .venv
-    .venv/Scripts/activate.ps1
-```
-Outros sistemas:
-```bash
-    python -m venv .venv
-    source .venv/bin/activate
+    poetry shell
 ```
 
 ### 2 - Instalação de dependências
 ```bash
-    pip install -r requirements.txt
+    poetry install
 ```
 ### 3 - Execução
 
